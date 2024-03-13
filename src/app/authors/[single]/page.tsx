@@ -41,7 +41,7 @@ const AuthorSingle = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <section className="section-sm pb-0">
+      <section className="section-sm pb-0 bg-gradient">
         <div className="container">
           <div className="row justify-center border-b border-border pb-14 dark:border-darkmode-border">
             <div className="text-center lg:col-4">

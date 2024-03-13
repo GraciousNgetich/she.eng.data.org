@@ -18,7 +18,7 @@ const About = () => {
         description={description}
         image={image}
       />
-      <section className="section-sm">
+      <section className="section-sm bg-gradient">
         <div className="container">
           <div className="row justify-center">
             <div className="text-center md:col-10 lg:col-7">

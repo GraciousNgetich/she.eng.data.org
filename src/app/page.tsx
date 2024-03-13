@@ -119,7 +119,7 @@ const Home = () => {
         </section>
       ))}
 
-      <Testimonials data={testimonial} />
+      {/* <Testimonials data={testimonial} /> */}
       <CallToAction data={callToAction} />
     </>
   );

@@ -1,6 +1,5 @@
 "use client";
-
-import Logo from "@/components/Logo";
+import Image from "next/image";
 import Social from "@/components/Social";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
@@ -12,11 +11,18 @@ const Footer = () => {
   const { copyright } = config.params;
 
   return (
-    <footer className="bg-theme-light dark:bg-darkmode-theme-light">
+    <footer className="bg-theme-darkMode border-t border-border py-7 dark:border-darkmode-border">
       <div className="container">
         <div className="row items-center py-10">
-          <div className="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
-            <Logo />
+          <div className="order-0">
+            <Link href="/">
+              <Image
+                src="/images/logo-darkmode.png"
+                alt="logo"
+                width="150"
+                height="100"
+              />
+            </Link>
           </div>
           <div className="mb-8 text-center lg:col-6 lg:mb-0">
             <ul>
@@ -32,11 +38,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-border py-7 dark:border-darkmode-border">
+      {/* <div className="border-t border-border py-7 dark:border-darkmode-border">
         <div className="container text-center text-light dark:text-darkmode-light">
           <p dangerouslySetInnerHTML={markdownify(copyright)} />
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

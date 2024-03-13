@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "name": "youtube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/@SheEngineersData"
     },
     {
       "name": "twitter",
       "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "link": "https://twitter.com/SheEngData"
     },
     {
       "name": "github",
       "icon": "FaGithub",
-      "link": "https://www.github.com/"
+      "link": "https://github.com/SheEngineersData"
     },
     {
       "name": "linkedin",
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/company/she-engineers-data"
     }
   ]
 }

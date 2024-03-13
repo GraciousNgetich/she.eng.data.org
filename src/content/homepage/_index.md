@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "Data Mastery: Decoding Data - One Byte at a Time"
+  content: "We are ENGINEERING a future where African WOMEN thrive in the world of DATA. We aim to make it easy to understand how to transform raw data into meaningful information, even for those who have never coded. "
   image: "/images/banner.png"
   button:
     enable: true
     label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    link: "/blog"
 
 # Features
 features:
@@ -24,7 +24,7 @@ features:
     button:
       enable: false
       label: "Get Started Now"
-      link: "#"
+      link: "/blog"
 
   - title: "Discover the Key Features Of Next"
     image: "/images/service-2.png"
@@ -36,7 +36,7 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      link: "/blog"
 
   - title: "The Top Reasons to Choose Next for Your Next Project"
     image: "/images/service-3.png"

@@ -1,8 +1,8 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: Gracious Ngetich
+email: ngetichgracious@email.com
 image: "/images/avatar.png"
-description: this is meta description
+description: Founder @ SheEngineers Data ||Data Engineer || Technical Writer
 social:
   - name: github
     icon: FaGithub
