@@ -9,6 +9,14 @@ banner:
     label: "Get Started For Free"
     link: "/blog"
 
+  #Book Call
+bookCall:
+  button:
+    enable: true
+    label: "Book a Call"
+    link: "/blog"
+
+
 # Features
 features:
   - title: "What's Included in Nextplate"
